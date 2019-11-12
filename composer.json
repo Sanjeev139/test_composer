@@ -1,0 +1,14 @@
+{
+    "name": "sanjeev/test_sxyz_composer",
+    "description": "Test composer file",
+    "type": "library",
+    "minimum-stability": "dev",
+    "require": {
+		"php": ">=5.5"
+	},
+	"autoload": {
+	  "classmap": [
+		"./src/"
+	  ]
+	}
+}
